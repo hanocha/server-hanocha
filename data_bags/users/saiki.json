@@ -1,0 +1,12 @@
+{
+  "id": "hanocha",
+  "uid": "hanocha",
+  "gid": "hanocha",
+  "password": "$6$q324w354e65r76ti$6G9.A/5Bf5DHUdKg9jVNexRZzKSS4lFgc3h.t49L0wXfs4gkS.a2GCnXEPbcZrRQYkLoQYaPz2/tafQJJimGE1",
+  "groups": [ "wheel" ],
+  "home": "/home/hanocha",
+  "shell": "/bin/bash",
+  "authorized_keys": [
+    "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDJqY35aVuFkUQ3zaLm64+tt07NzTEdpPXgnjfli569id7B0SBdZDBwbY45qNOcwa587v8rF9z9ii0SjWCssozqHLg/o8g1hM8zXNYkqkXDKE3BGNBItme+QRKtlgSbuughMuoyQtAVsj4YtXVQJdxU/vFY6hB7pUE3sP81Xyx81hm5Nenttv8BQBx/UTBIKWMuelNZ9pJ52ulWIG3RFa1pAPsWP5kjuUA9j5Jg2a0FnExNvCZYQ3ZJ0ZrZYk6FymTx7/IVdeyWoU8LU8c+79ew8tDRM5nFeU3qld66g05s4yNb3r0MvsKLpUJLHCU/IcvJZGM6lSiB4UXwP4FO7QJL Hanocha@HANOCHA-VAIOZ"
+  ]
+}
