@@ -1,0 +1,47 @@
+{
+  "name": "localhost",
+  "normal": {
+    "tags": [
+
+    ],
+    "knife_zero": {
+      "host": "hanovm"
+    }
+  },
+  "automatic": {
+    "fqdn": "localhost",
+    "os": "linux",
+    "os_version": "3.10.0-229.el7.x86_64",
+    "hostname": "localhost",
+    "ipaddress": "10.0.2.15",
+    "roles": [
+
+    ],
+    "recipes": [
+      "user",
+      "user::default",
+      "git",
+      "git::default",
+      "rbenv",
+      "rbenv::default"
+    ],
+    "platform": "centos",
+    "platform_version": "7.1.1503",
+    "cloud_v2": null,
+    "chef_packages": {
+      "chef": {
+        "version": "12.11.18",
+        "chef_root": "/opt/chef/embedded/lib/ruby/gems/2.1.0/gems/chef-12.11.18/lib"
+      },
+      "ohai": {
+        "version": "8.16.0",
+        "ohai_root": "/opt/chef/embedded/lib/ruby/gems/2.1.0/gems/ohai-8.16.0/lib/ohai"
+      }
+    }
+  },
+  "run_list": [
+    "recipe[user]",
+    "recipe[git]",
+    "recipe[rbenv]"
+  ]
+}
