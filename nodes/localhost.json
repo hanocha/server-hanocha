@@ -42,6 +42,7 @@
   "run_list": [
     "recipe[user]",
     "recipe[git]",
-    "recipe[rbenv]"
+    "recipe[rbenv]",
+    "recipe[ruby-build]"
   ]
 }
