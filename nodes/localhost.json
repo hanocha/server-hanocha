@@ -25,7 +25,9 @@
       "rbenv",
       "rbenv::default",
       "ruby-build",
-      "ruby-build::default"
+      "ruby-build::default",
+      "ruby",
+      "ruby::default"
     ],
     "platform": "centos",
     "platform_version": "7.1.1503",
@@ -45,6 +47,7 @@
     "recipe[user]",
     "recipe[git]",
     "recipe[rbenv]",
-    "recipe[ruby-build]"
+    "recipe[ruby-build]",
+    "recipe[ruby]"
   ]
 }
