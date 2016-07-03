@@ -1,12 +1,12 @@
 {
-  "name": "hanovm",
+  "name": "localhost",
   "normal": {
-    "knife_zero": {
-      "host": "hanovm"
-    },
     "tags": [
 
-    ]
+    ],
+    "knife_zero": {
+      "host": "hanovm"
+    }
   },
   "automatic": {
     "fqdn": "localhost",
@@ -18,7 +18,12 @@
 
     ],
     "recipes": [
-
+      "user",
+      "user::default",
+      "git",
+      "git::default",
+      "rbenv",
+      "rbenv::default"
     ],
     "platform": "centos",
     "platform_version": "7.1.1503",
@@ -35,6 +40,8 @@
     }
   },
   "run_list": [
-    "recipe[user]"
+    "recipe[user]",
+    "recipe[git]",
+    "recipe[rbenv]"
   ]
 }
