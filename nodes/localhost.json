@@ -23,7 +23,9 @@
       "git",
       "git::default",
       "rbenv",
-      "rbenv::default"
+      "rbenv::default",
+      "ruby-build",
+      "ruby-build::default"
     ],
     "platform": "centos",
     "platform_version": "7.1.1503",
@@ -42,6 +44,7 @@
   "run_list": [
     "recipe[user]",
     "recipe[git]",
-    "recipe[rbenv]"
+    "recipe[rbenv]",
+    "recipe[ruby-build]"
   ]
 }
