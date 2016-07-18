@@ -12,4 +12,5 @@ script 'install ruby with rbenv' do
   code <<-EOS
     sudo -u hanocha /home/hanocha/.rbenv/bin/rbenv install 2.3.1
   EOS
+  not_if %Q{sudo test -d /home/hanocha/.rbenv/versions/2.3.1}, environment: { 'HOME' => "/home/hanocha" }
 end
